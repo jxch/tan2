@@ -1,0 +1,11 @@
+server:
+  port: 11011
+
+spring:
+  application:
+    name: tan-grafana
+  profiles:
+    active: dev
+  datasource:
+    hikari:
+      connection-timeout: 60000

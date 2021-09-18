@@ -1,0 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@127.0.0.1:11001/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+spring:
+  datasource:
+    oracle:
+      jdbc-url: jdbc:oracle:thin:@dbling_high?TNS_ADMIN=E:/cloud/Oracle/Wallet_DBLing
+      driver-class-name: oracle.jdbc.OracleDriver
+      username: ADMIN
+      password: _y6.683Fd_rx+2L
